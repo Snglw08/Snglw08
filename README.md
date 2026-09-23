@@ -27,7 +27,7 @@ Construyo software y automatizaciones con IA para negocios bajo la marca **snglw
 |---|---|---|
 | **NutriMercado CL** | PWA para nutricionista: escanea códigos de barra, lee etiquetas con OCR (Gemini Flash) y entrega un veredicto tipo semáforo por producto. · *PWA that scans barcodes, OCRs nutrition labels and gives a traffic-light verdict.* | Next.js 15 · TypeScript · Supabase · Cloudflare Workers |
 | [**snglw-site**](https://github.com/Snglw08/snglw-site) | Mi sitio web bilingüe. · *My bilingual website.* | Astro |
-| [**Redactor_automata**](https://github.com/Snglw08/Redactor_automata) | _Describe aquí en una línea qué hace._ | _Stack_ |
+
 
 ### 🔥 Actividad
 
