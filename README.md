@@ -25,9 +25,9 @@ Construyo software y automatizaciones con IA para negocios bajo la marca **snglw
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| **NutriMercado CL** | PWA para nutricionista: escanea códigos de barra, lee etiquetas con OCR (Gemini Flash) y entrega un veredicto tipo semáforo por producto. · *PWA that scans barcodes, OCRs nutrition labels and gives a traffic-light verdict.* | Next.js 15 · TypeScript · Supabase · Cloudflare Workers |
+| [**Apto**](https://github.com/Snglw08/Apto-app) · [demo](https://apto-app.snglwdesign.workers.dev) | Escáner de etiquetas: el paciente escanea un producto y recibe un veredicto (recomendado / neutro / no recomendado) según las reglas que definió su nutricionista, con OCR cuando faltan datos. Versión de portafolio de un MVP que desarrollé para un cliente real. · *Label scanner that tells patients if a product fits their nutritionist's rules. Portfolio version of a client MVP.* | Next.js 16 · TypeScript · Supabase · Cloudflare Workers · Gemini |
 | [**snglw-site**](https://github.com/Snglw08/snglw-site) | Mi sitio web bilingüe. · *My bilingual website.* | Astro |
-
+| [**Redactor_automata**](https://github.com/Snglw08/Redactor_automata) | _Describe aquí en una línea qué hace._ | _Stack_ |
 
 ### 🔥 Actividad
 
