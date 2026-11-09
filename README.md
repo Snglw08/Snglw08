@@ -29,6 +29,15 @@ Construyo software y automatizaciones con IA para negocios bajo la marca **snglw
 | [**snglw-site**](https://github.com/Snglw08/snglw-site) | Mi sitio web bilingüe. · *My bilingual website.* | Astro |
 | **escritIA** · _repo privado · private repo_ | SaaS multi-estudio para estudios jurídicos que arma documentos a partir de plantillas Word. Lee los archivos del caso (PDF, Word, Excel, fotos) con OCR y extracción con IA, propone datos y párrafos con la fuente de cada uno, y el abogado confirma. El documento se arma de forma determinista, y los textos que redacta la IA se revisan oración por oración contra sus fuentes. Aislamiento total entre estudios con RLS, colas de trabajo, roles, auditoría, planes y panel de plataforma. En producción con un estudio piloto. · *Multi-tenant SaaS for law firms that assembles documents from Word templates. AI reads case files, proposes data and drafts with a source for every claim, the lawyer confirms, and the document is built deterministically. Per-firm isolation via RLS, job queues, roles, audit log and billing plans. Live with a pilot firm. Code is private; happy to walk through it.* | Next.js (App Router) · TypeScript · Cloudflare Workers + Queues · Supabase (Postgres, RLS, Auth, Storage) · Gemini · Zod · docxtemplater · Vitest · Playwright · pnpm monorepo · Docker (Supabase local) |
 
+#### 🖼️ escritIA en acción · escritIA in action
+
+*El código es privado, pero así se ve. Capturas con datos ficticios. · The code is private, but this is how it looks. Screenshots use fictitious data.*
+
+| 1 · La IA propone, con su fuente | 2 · Borrador revisado por la app | 3 · El documento se arma solo |
+|---|---|---|
+| <img src="escritia/1-propone-con-fuente.webp" width="320" alt="Paso 3: la IA propone botones y datos, cada uno con el fragmento de donde salió" /> | <img src="escritia/2-borrador-verificado.webp" width="320" alt="Paso 4: borrador con la fuente de cada oración y revisión automática; una oración sin fuente queda marcada" /> | <img src="escritia/3-documento-armado.webp" width="320" alt="Paso 5: vista previa y descarga del documento Word armado con lo confirmado" /> |
+| Cada dato y cada botón sugerido muestra el archivo, la página y el fragmento. El abogado confirma. · *Every suggestion shows file, page and quote. The lawyer confirms.* | Fechas, montos y nombres se comparan con los datos confirmados; lo que no tiene fuente se marca. · *Dates, amounts and names are checked against confirmed data; unsourced claims get flagged.* | Mismas entradas, mismo documento: el armado es determinista y cada versión queda guardada. · *Same inputs, same document; every version is kept.* |
+
 ### 🔥 Actividad
 
 <p align="center">
